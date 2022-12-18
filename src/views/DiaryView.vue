@@ -56,6 +56,7 @@ onMounted(() => {
       </div>
     </div>
   </div>
+  <p v-if="diaries.length === 0">No diary</p>
 </template>
 
 <style scoped>
