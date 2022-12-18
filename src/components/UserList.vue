@@ -14,7 +14,7 @@ defineProps({
     <h3>User List</h3>
     <ul>
         <li v-for="user in users" :key="user.id">
-            <RouterLink :to="`/posts/${user.id}`">{{user.id}} ({{user.countPost}})</RouterLink>
+            <RouterLink :to="`/diaries/${user.username}`">{{user.username}}</RouterLink>
         </li>
     </ul>
   </div>

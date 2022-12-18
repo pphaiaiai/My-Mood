@@ -1,13 +1,25 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import PostView from '../views/PostView.vue'
+import DiaryView from '../views/DiaryView.vue'
+import MoodView from '../views/MoodView.vue'
+import QueryView from '../views/QueryView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/posts/:user',
-      name: 'posts',
-      component: PostView
+      path: '/diaries/:user',
+      name: 'diaries',
+      component: DiaryView
+    },
+    {
+      path: '/mood/:mood',
+      name: 'mood',
+      component: MoodView
+    },
+    {
+      path: '/query/:id',
+      name: 'query',
+      component: QueryView
     }
   ]
 })

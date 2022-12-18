@@ -141,11 +141,11 @@ var diary = [
 ]
 
 diary.forEach(function(obj){
-    db.collection("diary").doc(obj.id).set({
+    db.collection("diary").add({
         title: obj.title,
         mood: obj.mood,
-        email: obj.email,
         description: obj.description,
+        created_at: obj.created_at,
         is_public: obj.is_public,
         favorite: obj.favorite,
         username: obj.username,

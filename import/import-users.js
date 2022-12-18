@@ -84,7 +84,7 @@ var users = [
 ]
 
 users.forEach(function(obj){
-    db.collection("users").doc(obj.id).set({
+    db.collection("users").add({
         username: obj.username,
         password: obj.password,
         email: obj.email,

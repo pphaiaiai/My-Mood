@@ -54,7 +54,7 @@ var mood = [
 ]
 
 mood.forEach(function(obj){
-    db.collection("mood").doc(obj.id).set({
+    db.collection("mood").add({
         mood: obj.mood,
         description: obj.description,
     }).then( docRef => { console.log("Document written with ID : "+ docRef.id)})
