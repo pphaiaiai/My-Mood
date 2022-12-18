@@ -142,11 +142,13 @@ var diary = [
 
 diary.forEach(function(obj){
     db.collection("diary").doc(obj.id).set({
-        username: obj.name,
-        password: obj.state,
-        email: obj.country,
-        display_name: obj.capital,
-        is_admin: obj.population,
+        title: obj.title,
+        mood: obj.mood,
+        email: obj.email,
+        description: obj.description,
+        is_public: obj.is_public,
+        favorite: obj.favorite,
+        username: obj.username,
     }).then( docRef => { console.log("Document written with ID : "+ docRef.id)})
 });
 

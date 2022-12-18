@@ -85,11 +85,11 @@ var users = [
 
 users.forEach(function(obj){
     db.collection("users").doc(obj.id).set({
-        username: obj.name,
-        password: obj.state,
-        email: obj.country,
-        display_name: obj.capital,
-        is_admin: obj.population,
+        username: obj.username,
+        password: obj.password,
+        email: obj.email,
+        display_name: obj.display_name,
+        is_admin: obj.is_admin,
     }).then( docRef => { console.log("Document written with ID : "+ docRef.id)})
 });
 
