@@ -15,7 +15,7 @@ var diary = [
         "title": "เรื่องราวที่ 1",
         "mood": "happy",
         "description": "ฉันรู้สึกมีความสุขมากวันนี้",
-        "created_at": "2021-04-01 12:00:00",
+        "created_at": new Date("October 20, 2022 11:13:00"),
         "is_public": true,
         "favorite": {
             "count": 3,
@@ -31,7 +31,7 @@ var diary = [
         "title": "วันนี้ฉันรู้สึกเศร้ามาก",
         "mood": "sad",
         "description": "ทำไมฉันทำได้ไม่ดีพอ",
-        "created_at": "2021-04-01 12:00:00",
+        "created_at": new Date("October 21, 2022 11:13:00"),
         "is_public": true,
         "favorite": {
             "count": 2,
@@ -46,7 +46,7 @@ var diary = [
         "title": "วันอะไรวันนี้",
         "mood": "angry",
         "description": "โกรธมากวันนี้",
-        "created_at": "2021-04-01 12:00:00",
+        "created_at": new Date(),
         "is_public": false,
         "favorite": {
             "count": 0,
@@ -58,7 +58,7 @@ var diary = [
         "title": "กดไลค์ให้ฉันหน่อย",
         "mood": "scared",
         "description": "อยากให้คนอื่นกดไลค์ให้ฉัน",
-        "created_at": "2021-04-01 12:00:00",
+        "created_at": new Date(),
         "is_public": false,
         "favorite": {
             "count": 0,
@@ -70,7 +70,7 @@ var diary = [
         "title": "ไม่รู้ว่าจะเขียนอะไร",
         "mood": "surprised",
         "description": "",
-        "created_at": "2021-04-01 12:00:00",
+        "created_at": new Date(),
         "is_public": false,
         "favorite": {
             "count": 0,
@@ -82,7 +82,7 @@ var diary = [
         "title": "อะไรก็ได้",
         "mood": "disgusted",
         "description": "",
-        "created_at": "2021-04-01 12:00:00",
+        "created_at": new Date(),
         "is_public": false,
         "favorite": {
             "count": 0,
@@ -94,7 +94,7 @@ var diary = [
         "title": "i don't know what to write",
         "mood": "confused",
         "description": "everything is confusing",
-        "created_at": "2021-04-01 12:00:00",
+        "created_at": new Date(),
         "is_public": false,
         "favorite": {
             "count": 0,
@@ -106,7 +106,7 @@ var diary = [
         "title": "this is a title",
         "mood": "bored",
         "description": "something something something",
-        "created_at": "2021-04-01 12:00:00",
+        "created_at": new Date(),
         "is_public": false,
         "favorite": {
             "count": 0,
@@ -118,7 +118,7 @@ var diary = [
         "title": "damn it",
         "mood": "excited",
         "description": "so excited",
-        "created_at": "2021-04-01 12:00:00",
+        "created_at": new Date(),
         "is_public": false,
         "favorite": {
             "count": 0,
@@ -130,7 +130,7 @@ var diary = [
         "title": "test test test",
         "mood": "relaxed",
         "description": "what is this",
-        "created_at": "2021-04-01 12:00:00",
+        "created_at": new Date(),
         "is_public": false,
         "favorite": {
             "count": 0,
